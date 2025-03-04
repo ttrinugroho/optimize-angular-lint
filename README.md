@@ -45,11 +45,11 @@ Create file `.prettierrc` and configure
 }
 ```
 ## Add scrypt
-In `package.json` add scrypt
+In `package.json` add scripts
 ```json
 {
-  "scrypt": {
-    // other scrypt
+  "scripts": {
+    // ...other scripts
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
     "style:fix": "prettier --write \"**/{src,tests,e2e}/**/*.{*css,ts,html}\"",
